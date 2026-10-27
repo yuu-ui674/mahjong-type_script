@@ -1,1 +1,0 @@
-# mahjong-type_script
