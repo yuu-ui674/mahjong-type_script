@@ -1,0 +1,13 @@
+{
+  "name": "mahjong-prototype-ts-migration",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/copy-to-dist.mjs && node scripts/build-standalone.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "check:js": "node --check main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
